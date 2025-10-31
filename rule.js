@@ -13,7 +13,7 @@ const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
 const PUSHGATEWAY_URL = process.env.PUSHGATEWAY_URL;
 
-// Map VMID → IP từ .env (VM_IPS=1008:192.168.77.130,1009:192.168.77.131)
+// Map VMID → IP từ .env (VM_IPS=1008:192.168.77.140,1009:192.168.77.141)
 const VM_IPS = Object.fromEntries(
     (process.env.VM_IPS || "")
         .split(",")
